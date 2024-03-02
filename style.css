@@ -1,0 +1,121 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.btn {
+  
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 1rem;
+  background-color:rgb(26 21 2 / 59%);
+  color: white;
+ box-shadow: 5px 2px 2px 3px #000000;
+  border: none;
+
+}
+#btnc{
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 1rem;
+  background-color:rgb(26 21 2 / 59%);
+  color: white;
+ box-shadow: 5px 2px 2px 3px #000000;
+  border: none;
+}
+#inputVal{
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    background-color: #2a2727;
+    font-size: 2rem;
+}
+.container {
+  /* width: 85vh;
+  height: 90vh;
+  border: 2px solid red;
+  text-align: center;
+  display: flex;justify-content: center;
+  align-items: center;
+  margin: auto; */
+}
+.calculator {
+    margin: auto;
+    width: 84vh;
+    height: 88vh;
+    margin-top: 5px;
+    background-color:#6f726c;
+ 
+  /* border: 2px solid green; */
+  display: grid;
+  grid-template-areas: 
+  'inputVal inputVal inputVal btnc'
+  'btn1 btn2 btn3 btnadd'
+  'btn4 btn5 btn6 btnsub'
+  'btn7 btn8 btn9 btnmul'
+  ' btnequal btndec btn0  btndev'
+  ; box-shadow: 10px 12px 2px 1px #000000;
+
+
+  text-align: center;
+  gap: 10px;
+  border-radius: 1rem;
+}
+
+#inputVal {
+  grid-area: inputVal;
+}
+#btn1 {
+  grid-area: btn1;
+}
+#btn2 {
+  grid-area: btn2;
+}
+#btn3 {
+  grid-area: btn3;
+}
+#btnequal {
+  grid-area: btnequal;
+}
+#btn4 {
+  grid-area: btn4;
+}
+#btn5 {
+  grid-area: btn5;
+}
+#btn6 {
+  grid-area: btn6;
+}
+#btn7 {
+  grid-area: btn7;
+}
+#btn8 {
+  grid-area: btn8;
+}
+#btn9 {
+  grid-area: btn9;
+}
+#btn0 {
+  grid-area: btn0;
+}
+#btnadd {
+  grid-area: btnadd;
+}
+#btnsub {
+  grid-area: btnsub;
+}
+#btnmul {
+  grid-area: btnmul;
+}
+#btndev {
+  grid-area: btndev;
+}
+#btndec {
+  grid-area: btndec;
+}
+#btnc {
+  grid-area: btnc;
+}
